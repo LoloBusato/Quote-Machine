@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+:root {
+  --main-color: rgb(100, 100, 100);
+}
+body {
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#quote-box {
+  padding: 40px 50px;
+  width: 450px;
+  background-color: white;
+  border-radius: 3px;
+}
+#text {
+  color: var(--main-color);
+  margin: auto;
+  text-align: center;
+}
+#quote {
+  margin-right: 12px;
+}
+#author {
+  color: var(--main-color);
+  text-align: right;
+  margin-top: 20px;
+}
+.buttons{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#new-quote {
+  color: white;
+  padding: 10px 15px;
+  background-color: var(--main-color);
+  border-radius: 3px;
+  border: none;
+}
+.boxes {
+  display: flex;
+}
+.twitter-tumblr{
+  display: flex;
+  width: 40px;
+  height: 38px;
+  background-color: var(--main-color);
+  margin-right: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+a {
+  text-decoration-line: none;
+}
